@@ -21,6 +21,8 @@ h1.todo-list {
 
 h1.list {
     margin-top: 90px;
+    height: 100px;
+    margin-bottom: -10px;
 }
 
 h1.our_input {
@@ -57,11 +59,12 @@ button {
     background-color: black;
     color: rgb(145, 41, 41);
     width: 10%;
-    border: 1px solid gray;
+    border: 1px solid rgb(145, 41, 41);
     border-radius: 4px;
     padding: 10px 10px;
     box-sizing: border-box;
     font-size: 100%;
+    position:relative;
 }
 
 button:hover {
@@ -71,10 +74,29 @@ button:hover {
 button.deleteButton {
     margin-left: 10px;
     width: 0px;
+    position: relative;
+}
+
+button.deleteButton:after {
+    position: absolute;
+    content: "X";
+    font-size: 15px; 
+    text-align: center;
+    line-height: 10x;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 button.deleteButton:hover {
     background-color: rgb(145, 41, 41);
+    color: black;
+}
+
+button.changeButton {
+    margin-left: 10px;
+    width: 0px;
 }
 
 ul {
