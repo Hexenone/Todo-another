@@ -1,0 +1,93 @@
+*:focus {
+    outline: none;
+}
+
+body {
+    background-color: black;
+}
+
+div.our_function {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+}
+
+h1.todo-list {
+    margin-bottom: 0px;
+}
+
+h1.list {
+    margin-top: 90px;
+}
+
+h1.our_input {
+    font-size: 140%;
+    margin-top: 90px;
+}
+
+span.ravein {
+    font-size: 150%;
+}
+
+p {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgb(145, 41, 41);
+}
+
+input {
+    background-color: black;
+    color: rgb(145, 41, 41);
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+button {
+    cursor: pointer;
+    background-color: black;
+    color: rgb(145, 41, 41);
+    width: 10%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+button:hover {
+    background-color:gray;
+}
+
+button.deleteButton {
+    margin-left: 10px;
+    width: 0px;
+}
+
+button.deleteButton:hover {
+    background-color: rgb(145, 41, 41);
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+li {
+    position: relative;
+    background-color: black;
+    color: rgb(145, 41, 41);
+    font-size: 130%;
+    margin-bottom: 10px;
+}
