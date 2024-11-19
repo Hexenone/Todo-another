@@ -49,7 +49,7 @@ function toggleDone(event) {
 function saveChange(event) {
   let inputValue = event.target.value.trim();
   let our_grief = event.target.parentElement;
-  if (event.target.value.length > 0 && (event.keyCode === 13 || event.type === 'click')) {
+  if (event.target.value.length > 0 && event.keyCode === 13) {
     our_grief.textContent = inputValue;
     console.log(inputValue);
     event.target.remove();
